@@ -7,7 +7,7 @@ v1.0 | sha2-1.0 | LuaJIT 2
 
 ## `local sha2 = require'sha2'`
 
-A ffi binding of Aaron Gifford's [SHA-2 implementation](http://www.aarongifford.com/computers/sha.html).
+A ffi binding of Aaron Gifford's [SHA-2 implementation][sha2 lib].
 
 ----------------------------------- -----------------------------------
 `sha2.sha256(s[, size]) -> s`   \   Compute the SHA-2 hash of a string or a cdata buffer.
@@ -31,7 +31,8 @@ A ffi binding of Aaron Gifford's [SHA-2 implementation](http://www.aarongifford.
 C sources and build scripts included. Binary also included.
 
 ----
-_See also_: [md5](md5.html).
+See also: [md5]
 
 [glue.tohex]: glue.html#tohex
 
+[sha2 lib]:   http://www.aarongifford.com/computers/sha.html
