@@ -1,6 +1,7 @@
 ---
-project: sha2
-tagline: SHA-256, SHA-384 and SHA-512 sum and digest
+project:  sha2
+tagline:  SHA-256, SHA-384 and SHA-512 sum and digest
+category: Hashing
 ---
 
 v1.0 | sha2-1.0 | LuaJIT 2
