@@ -4,8 +4,6 @@ tagline:  SHA-256, SHA-384 and SHA-512 sum and digest
 category: Hashing
 ---
 
-v1.0 | sha2-1.0 | LuaJIT 2
-
 ## `local sha2 = require'sha2'`
 
 A ffi binding of Aaron Gifford's [SHA-2 implementation][sha2 lib].
