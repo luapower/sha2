@@ -1,7 +1,6 @@
 ---
 project:  sha2
 tagline:  SHA-256, SHA-384 and SHA-512 sum and digest
-category: Hashing
 ---
 
 ## `local sha2 = require'sha2'`
