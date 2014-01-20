@@ -1,6 +1,6 @@
 ---
-project:  sha2
-tagline:  SHA-256, SHA-384 and SHA-512 sum and digest
+project: sha2
+tagline: SHA-256/-384/-512 hashing
 ---
 
 ## `local sha2 = require'sha2'`
