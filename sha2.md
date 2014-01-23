@@ -24,13 +24,7 @@ A ffi binding of Aaron Gifford's [SHA-2 implementation][sha2 lib].
 
 ----------------------------------- -----------------------------------
 
-## Building
-
-C sources and build scripts included. Binary also included.
-
-----
 See also: [md5]
 
 [glue.tohex]: glue.html#tohex
-
 [sha2 lib]:   http://www.aarongifford.com/computers/sha.html
