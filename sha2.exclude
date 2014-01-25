@@ -1,0 +1,14 @@
+*
+!/bin/
+!/csrc/
+!/bin/mingw32/
+!/bin/linux32/
+!/media/
+
+!/sha2*
+!/bin/mingw32/sha2*
+!/bin/linux32/libsha2*
+!/csrc/sha2/
+!/csrc/sha2/**
+!/media/sha2/
+!/media/sha2/**
