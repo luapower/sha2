@@ -1,1 +1,2 @@
-gcc -arch x86_64 -O2 sha2.c -shared -install_name @loader_path/libsha2.dylib -o ../../bin/osx64/libsha2.dylib -I. -DSHA2_USE_INTTYPES_H -DBYTE_ORDER -DLITTLE_ENDIAN
+P=osx64 C="-arch x86_64" L="-arch x86_64 -install_name @loader_path/libsha2.dylib" \
+	D=libsha2.dylib A=libsha2.a ./build.sh

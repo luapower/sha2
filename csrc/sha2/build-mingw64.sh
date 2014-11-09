@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc sha2.c -shared -o ../../bin/mingw64/sha2.dll -I. -DSHA2_USE_INTTYPES_H -DBYTE_ORDER -DLITTLE_ENDIAN
+P=mingw64 L="-s -static-libgcc" D=sha2.dll A=sha2.a ./build.sh
