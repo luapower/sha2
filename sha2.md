@@ -7,6 +7,8 @@ tagline: SHA-256/-384/-512 hashing
 
 A ffi binding of Aaron Gifford's [SHA-2 implementation][sha2 lib].
 
+[sha2 lib]:   http://www.aarongifford.com/computers/sha.html
+
 ----------------------------------- -----------------------------------
 `sha2.sha256(s[, size]) -> s`   \   Compute the SHA-2 hash of a string or a cdata buffer.
 `sha2.sha256(cdata, size) -> s` \   Return the  binary representation of the hash.
@@ -24,7 +26,4 @@ A ffi binding of Aaron Gifford's [SHA-2 implementation][sha2 lib].
 
 ----------------------------------- -----------------------------------
 
-See also: [md5]
-
 [glue.tohex]: glue.html#tohex
-[sha2 lib]:   http://www.aarongifford.com/computers/sha.html
