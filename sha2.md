@@ -1,5 +1,4 @@
 ---
-project: sha2
 tagline: SHA-256/-384/-512 hashing
 ---
 
