@@ -58,7 +58,7 @@ for k,test in ipairs(tests) do
 end
 
 
-local b64 = require'libb64'
+local b64 = require'base64'
 
 --per amazon aws example
 local message = 'GET\nwebservices.amazon.com\n/onca/xml\nAWSAccessKeyId=00000000000000000000&ItemId=0679722769&Operation=ItemLookup&ResponseGroup=ItemAttributes%2COffers%2CImages%2CReviews&Service=AWSECommerceService&Timestamp=2009-01-01T12%3A00%3A00Z&Version=2009-01-06'
